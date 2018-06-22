@@ -1,0 +1,18 @@
+
+Basic OData Kullanımı için :
+
+    GET(all)     localhost:3002/alperen/books
+    GET(single)  localhost:3002/alperen/books/:id
+    POST         localhost:3002/alperen/books
+    PUT          localhost:3002/alperen/books/:id
+    DELETE       localhost:3002/alperen/books/:id
+
+
+OData Kullanımı Detayları ($filter, $orderby, $select, $expand, $top, $skip  vb) için :
+https://adamspe.github.io/odata-resource/
+
+
+OData $expand yerine alternatif kullanımı gösterebilmek için POPULATE örneğe eklenmiştir.
+
+    GET(all)     localhost:3002/alperen/bookspopulate
+    GET(single)  localhost:3002/alperen/bookspopulate/:id

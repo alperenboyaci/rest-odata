@@ -1,0 +1,46 @@
+PRO bölümünde yapılan eklemeler
+
+1. Tüm routes için Restify Api yerine simple kod üretimi yapıldı. 
+   Böylece istenilen özelliklerde query oluşturmak mümkün hale getirilmiş oldu.
+
+    GET(all)     localhost:3000/alperen/books
+    GET(single)  localhost:3000/alperen/books/:id
+    POST         localhost:3000/alperen/books
+    PUT          localhost:3000/alperen/books/:id
+    DELETE       localhost:3000/alperen/books/:id      
+
+
+2. Populate = INNER JOIN
+
+    GET(all)     localhost:3000/alperen/bookspopulate
+    GET(single)  localhost:3000/alperen/bookspopulate/id
+
+
+3. User Authentication
+    Basic Token authentication örneği için JWT Api (JsonWebToken) kullanımı ile örnek hazırlandı.
+    https://jwt.io/
+
+    OAuth, OAuth2, vb ileri yöntemler için diğer Api'ler kullanılabilir.
+    Aynı zamanda Facebook/Twitter/Google OAuth erişimleri de yöntem olarak kullanılabilir.
+    Bunlar için Passport.js Api incelenebilir.
+
+    User Authentication örneğini deneyebilmek için öncelikle
+
+    PUT          localhost:3000/alperen/userlogin 
+                 üzerinden Token almanız ve bu Token ile GET özelliklerini kullanmanız gerekmektedir.
+                 (Bearer Token)
+
+    GET(all)     localhost:3000/alperen/booksauth
+    GET(single)  localhost:3000/alperen/booksauth/id
+
+
+4. File Uploads
+    FileUpload örneği için Multer Api kullanımı ile örnek hazırlandı.
+    Multer ile isterseniz tek isterseniz multi file upload yapabilirsiniz ve upload aşamasında
+    sınırlamalar ve düzenlemeler yapabilirsiniz.
+
+    POST        localhost:3001/alperen/uploads
+
+5. Analytics Data 
+    RESTful webservis üzerinden yapılan request'lere ilişkin olarak analytics data toplamak üzerinden
+    Google Analytics Api kullanımı örneğe eklendi.

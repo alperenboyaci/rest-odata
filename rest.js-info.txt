@@ -1,0 +1,14 @@
+
+Basic CRUD Kullanımı için :
+
+    GET(all)     localhost:3000/api/v1/books
+    GET(single)  localhost:3000/api/v1/books/:id
+    POST         localhost:3000/api/v1/books
+    PUT          localhost:3000/api/v1/books/:id
+    DELETE       localhost:3000/api/v1/books/:id
+
+
+
+Pro CRUD Kullanımı Detayları (query, select, sort, skip, limit, distinct, populate vb) için :
+https://florianholzapfel.github.io/express-restify-mongoose/
+

@@ -1,0 +1,133 @@
+
+
+//Users
+	[
+		{
+			"userEMail":"maboyaci@etu.edu.tr",
+			"userPassword":"1234567890",
+			"userName":"Alperen Boyacı",
+			"gender":"Male",
+			"nationality":"TR",
+			"dateofBirth":"01.01.1994",
+			"activationCode":"",
+			"memberships":["Admin"],
+			"isActive":true
+		},
+		{
+			"userEMail":"ipek@etu.edu.tr",
+			"userPassword":"1234567890",
+			"userName":"İpek Eyüpoğlu",
+			"gender":"Female",
+			"nationality":"TR",
+			"dateofBirth":"01.01.1994",
+			"activationCode":"",
+			"memberships":["User-G1"],
+			"isActive":true
+		}	
+	]
+	
+//Categories
+	[
+		{"categoryName":"Edebiyat"},
+		{"categoryName":"Çocuk ve Gençlik"},
+		{"categoryName":"Eğitim & Başvuru"},
+		{"categoryName":"Araştırma & Tarih"},	
+		{"categoryName":"Din & Mitoloji"},
+		{"categoryName":"Ders & Sınav"},
+		{"categoryName":"Sanat & Tasarım"},
+		{"categoryName":"Felsefe"},
+		{"categoryName":"Hobi"},
+		{"categoryName":"Çizgi Roman"},	
+		{"categoryName":"Bilim"},
+		{"categoryName":"Mizah"},	
+		{"categoryName":"Prestij Kitapları"},
+		{"categoryName":"Sesli Kitaplar"},		
+		{"categoryName":"Yabancı Dil Yayınlar"},		
+	]
+		
+//Publishers
+	[
+		{"publisherCode":"self_arifbilgin", "publisherName":"Arif Bilgin"},
+		{"publisherCode":"ephesusyayinlari", "publisherName":"Ephesus Yayınları"},		
+		{"publisherCode":"nebevihayat", "publisherName":"Nebevi Hayat Yayınları"},	
+		{"publisherCode":"ipsiletisimvakfi", "publisherName":"IPS İletişim Vakfı"},		
+		{"publisherCode":"yeniturkiye", "publisherName":"Yeni Türkiye Yayınları"},			
+		{"publisherCode":"tekinyayinevi", "publisherName":"Tekin Yayınevi"},		
+		{"publisherCode":"savasyayinevi", "publisherName":"Savaş Yayınevi"},			
+		{"publisherCode":"solaunitas", "publisherName":"Sola Unitas"},	
+		{"publisherCode":"okyanusyayincilik", "publisherName":"Okyanus Yayıncılık"},
+		{"publisherCode":"alfayayinlari", "publisherName":"Alfa Yayınları"},
+		{"publisherCode":"karekokegitimyayincilik", "publisherName":"Karekök Eğitim Yayıncılık"}			
+	]
+
+
+//Authors
+	[
+		{"authorCode":"arifbilgin", "authorName":"Arif", "authorLName":"Bilgin"},
+		{"authorCode":"osmanaysu", "authorName":"Osman", "authorLName":"Aysu"},
+		{"authorCode":"rustubayindir", "authorName":"Rüştü", "authorLName":"Bayındır"},
+		{"authorCode":"bulentkaraatli", "authorName":"Bülent", "authorLName":"Karaatlı"},		
+		{"authorCode":"nedimbal", "authorName":"Nedim", "authorLName":"Bal"},
+		{"authorCode":"kollektif", "authorName":"Kollektif", "authorLName":""},			
+		{"authorCode":"ozdemirince", "authorName":"Özdemir", "authorLName":"İnce"},
+		{"authorCode":"russellbrunson", "authorName":"Russell", "authorLName":"Brunson", "nationality":"USA"},				
+		{"authorCode":"ahmetnohutcu", "authorName":"Ahmet", "authorLName":"Nohutçu"}
+		{"authorCode":"jaredmerski", "authorName":"J.A.", "authorLName":"Redmerski", "nationality":"RU"},	
+		
+	]	
+		
+		
+//Books
+	[
+		{"rel_Publishers":"5b2cf67beca1c636b0fa3294", "rel_Authors":"5b2cf8f7a60e373030a4e0e7", "rel_Categories":["5b2cefb70d3269288c836670"],
+		 "isbn":"9786055358877",
+		 "title":"Vahşi Tutku",
+		 "publishedDate":"2015-01-01",
+		 "totalpages":495,
+		 "price":25.00
+		},
+	
+		{"rel_Publishers":"5b2cf67beca1c636b0fa3294", "rel_Authors":"5b2cf8f7a60e373030a4e0e7", "rel_Categories":["5b2cefb70d3269288c836670"],
+		 "isbn":"9786059232852",
+		 "title":"Ölüm Meleği",
+		 "publishedDate":"2017.01.01",
+		 "totalpages":400,
+		 "price":27.50
+		},
+
+		{"rel_Publishers":"5b2cfda3f7264c1fe0dba305", "rel_Authors":"5b2cf8f7a60e373030a4e0e7", "rel_Categories":["5b2cefb70d3269288c836670"],
+		 "isbn":"9786051067063",
+		 "title":"Karadul",
+		 "publishedDate":"2013-01-01",
+		 "totalpages":255,
+		 "price":16.00
+		},
+		
+		
+		{"rel_Publishers":"5b2cfda3f7264c1fe0dba305", "rel_Authors":"5b2cfe4ff7264c1fe0dba307", "rel_Categories":["5b2cefb70d3269288c836670"],
+		 "isbn":"9786059232760",
+		 "title":"Kuğu ve Çakal",
+		 "publishedDate":"2017-01-01",
+		 "totalpages":400,
+		 "price":17.88
+		},		
+		
+		
+		{"rel_Publishers":"5b2cff24f7264c1fe0dba309", "rel_Authors":"5b2cf8f7a60e373030a4e0eb", "rel_Categories":["5b2cefb70d3269288c836672","5b2cefb70d3269288c836675"],
+		 "isbn":"9786059433495",
+		 "title":"TYT Matematik Soru Bankası",
+		 "publishedDate":"2017-01-01",
+		 "totalpages":400,
+		 "price":31.50,
+		 "tags": ["TYT", "Matematik", "Soru Bankası"] 
+		}
+	]	
+		
+		
+		
+		
+		
+		
+		
+		
+	
