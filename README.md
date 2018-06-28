@@ -21,7 +21,7 @@ Bu projemizi NodeJS + Express + MongoDB (case-sensitive NoSQL Database) kullanı
 1. NodeJS  : gelişterme ortamı için [NodeJS](https://nodejs.org/en/ "NodeJS") kurulumunu yapınız.
 2. MongoDB : NoSQL veritabamızı istersek local bilgisayarımıza kurulum yaparak kullanabiliriz, ancak Development işlemlerimizin için MongoDB'yi Cloud bazlı olarak sunan sistemleri kullanmak büyük kolaylık sağlamaktadır. Bu nedenle biz de ücretsiz olan [mLAB](http://www.mlab.com "mLAB") cloud yapısını kullanmayı tercih edebilirsiniz.
 3. Kod Editor : Yazacağımız kodlar için  profesyonel bir kod editör kullanımını tercih etmek faydalı olacaktır. Bunun için ücretsiz olan [Microsoft Visual Studio Code](https://code.visualstudio.com/ "Microsoft Visual Studio Code")  kullanmayı tavsiye edebiliriz.
-4. Test Aracı : RESTful ve OData için hem request hem de response açısından test işlemlerine gerçekleştirmek için [POSTMAN](https://nodemon.io/ "POSTMAN") uygulamasının kurulumunu yapınız.
+4. Test Aracı : RESTful ve OData için hem request hem de response açısından test işlemlerine gerçekleştirmek için [POSTMAN](https://www.getpostman.com/ "POSTMAN") uygulamasının kurulumunu yapınız.
 
 ###### Adım Adım
 Github kodlarımızı bilgisayarınıza indirin ve bir dizin oluşturarak Visual Studio Code (VSC) ile dizini açın, böylece hem kodlarımızı incelemeye hem de bu kodları çalıştırarak canlı olarak data işlemlerini gerçekleştirmeye hazır hale gelmiş olacağız.
