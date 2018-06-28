@@ -2,7 +2,7 @@
 # RESTful ve OData veri transferi
 CRUD işlemleri için BackEnd için RESTfull ve OData webservis örnek çalışması.
 
-![](/_img/resful.jpg)
+![](https://image.ibb.co/kQVYAT/restful.jpg)
 ###### RESTful
 REST (Representational State Transfer/ Temsili Durum Transferi) server-cilent arasında hızlı ve kolay bir iletişim ve veri artarmayı sağlamak üzere geliştirilen bir servis yapısını ifade etmekte olup SOAP &WSDL tabanlı webservislerinden daha basit bir yapı olarak geliştirilmiştir. 
 
