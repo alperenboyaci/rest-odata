@@ -50,6 +50,13 @@ ile webservisi başlattığınızda POSTMAN ile localhost:3002 üzerinden işlem
 VSC'nin multi-terminal özelliğini kullanarak aynı anda 3 farklı servisi birlikte çalıştırabilir ve hepsini birlikte karşılaştırabilirsiniz.
 
 ------------
+#### Özellikler ve Kullanım Detayları
+
+- Örnek basit veri setini "sample-data.txt" dosyası içinde görebilirsiniz.
+- rest.js ile ilgili bilgileri "rest.js-info.txt" dosyası içinde görebilirsiniz.
+- rest-pro.js ile ilgili bilgileri "rest-pro.js-info.txt" dosyası içinde görebilirsiniz.
+- odata.js ile ilgili bilgileri "odata.js-info.txt" dosyası içinde görebilirsiniz.
+
 
 
 
